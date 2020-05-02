@@ -1,0 +1,199 @@
+#Love{
+  background: #ffff;
+  width: 450px;
+  height: 500px;
+  margin: 20px auto;
+  outline: 1px solid #e0e0e0;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+#Love br{
+  display: none;
+}
+.love{
+  background: #f2f2f2;
+  width: 450px;
+  height: 500px;
+   outline: 1px solid #e0e0e0;
+}
+.titulo-l{
+  background: var(--oscuro);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  font-size: 30px;
+  color: #f2f2f2;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+}
+.titulo-l strong{
+  color: var(--claro);
+  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+}
+.imagen-l{
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  padding: 10px;
+  border-top: 4px dotted var(--claro);
+  border-left: 4px dotted var(--claro);
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  position: relative;
+  top: 40px;
+  margin: 0px 10px;
+}
+.titulo-l spam{
+  font-size: 8px;
+  display: block;
+  font-family: calibri, sans serif;
+  text-align: justify;
+}
+.imagen1-l{
+  background: url(https://i.imgur.com/jPVGFb8.png);
+  width: 450px;
+  height: 374px;
+}
+#Love [type=checkbox]{
+  display: none;
+}
+
+#Love label{
+  color: var(--claro);
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  font-size: 13px;
+   border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  top: 300px;
+  left: 350px;
+  z-index: 5;
+  transition: 1s;
+  cursor: crosshair
+}
+#Love [type=checkbox]:checked ~ label{
+  top: 30px;
+  left: 10px;
+  background: var(--oscuro);
+}
+.contenido-l{
+  background: #FFF;
+  opacity: 0.8px;
+  margin: 20px;
+  height: 250px;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  top: 350px;
+  transition: 1s;
+  font-family: calibri, sams serif;
+  font-size: 11px;
+  overflow: hidden;
+}
+#Love [type=checkbox]:checked ~ .contenido-l{
+  opacity: 0.8;
+  top: 0px;
+}
+.contenido-l [type=radio]{
+  display: none;
+}
+#What label{
+  position: relative;
+   border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  top: 0;
+  left: 0;
+  border: var(--claro) 1px solid;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 83px!important;
+  height: 20px!important;
+  display: inline-block!important;
+  text-align: center;
+  color: #fff;
+  background: var(--claro1);
+  float: left;
+  margin-right: -1px;
+  text-shadow: 1px 1px 0 var(--claro), -1px 1px 0 var(--claro), 1px -1px 0 var(--claro), -1px -1px 0 var(--claro);
+}
+#What label span{
+  display: block;
+  font-size: 15px;
+}
+#What [type=radio]:checked ~ label{
+  background: #fff;
+  color: var(--claro1);
+}
+.contenido1-l{
+  position: absolute;
+  top: 81px;
+  border: var(--claro) 1px solid;
+  height: 150px;
+  padding: 20px;
+  overflow: auto;
+  opacity: 0;
+  width: 301px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.contenido-l [type=radio]:checked ~ .contenido1-l{
+  opacity: 1;
+  z-index: 10;
+}
+
+.contenido1-l a{
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 1px;
+  background: var(--oscuro);
+  color: #fff;
+  padding: 10px;
+  border: var(--claro) 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 var(--claro), -1px 1px 0 var(--claro), 1px -1px 0 var(--claro), -1px -1px 0 var(--claro);
+  margin: 10px;
+  font-size: 11px;
+  line-height: 40px;
+}
+
+.contenido1-l::-webkit-scrollbar {
+  width: 4px;
+}
+
+
+.contenido1-l::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.contenido1-l::-webkit-scrollbar-thumb {
+  background: var(--claro1);
+  border: 1px solid var(--claro);
+}
+
+a.HRC{
+  margin: auto;
+  text-align: right;
+  position: relative;
+  top: -25px;
+  font-size: 8px;
+  background: rgba(255,255,255, 0.7);
+  float: left;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #444;
+  text-decoration: none;
+  z-index: 50;
+  line-height: 1;
+}
