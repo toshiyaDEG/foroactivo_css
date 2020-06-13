@@ -364,7 +364,7 @@ input#possum4:checked ~ #Bea4{
   opacity: 0.6;
 }
 
-.th-pizza, .th-skull-o {
+.th-pizza, .th-skull-o, .th-fire {
   position: absolute;
   transform: rotate(100deg);
   font-size: 35px;
