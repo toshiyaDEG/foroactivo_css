@@ -354,7 +354,7 @@ input#possum4:checked ~ #Bea4{
     color: #0e0e0e;
 }
 
-.th-bread-4, .th-band-aid, .th-candy, .th-fish {
+.th-band-aid, .th-candy, .th-fish, .th-coconut, .th-cofee-3, .th-bone, .th-injection {
   position: absolute;
   margin-left: -40px;
   margin-top: -10px;
@@ -364,7 +364,7 @@ input#possum4:checked ~ #Bea4{
   opacity: 0.6;
 }
 
-.th-pizza, .th-skull-o, .th-fire {
+.th-pizza, .th-skull-o, .th-fire, .th-crystal-ball, .th-bread-4 {
   position: absolute;
   transform: rotate(10deg);
   font-size: 35px;
