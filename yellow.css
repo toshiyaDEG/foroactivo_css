@@ -1,10 +1,10 @@
 #woods {
-  width: 500px;
+width: 500px;
 height: 450px;
 position: relative; 
-  display: inline-flex;
+display: inline-flex;
 top: 20px;
-background: #fcf2b4;
+background: #d7ddea;
 border-radius: 10px;
 overflow: hidden;
 }
@@ -34,13 +34,13 @@ overflow: hidden;
     height: 40px;
     justify-content: center;
     z-index: 999;
-  background: #ecbc64;
+  background: #949ebb;
   position: relative;
   top: 390px;
   margin-right: 40px;
   margin-left: 33px;
 border-radius: 10px;
-  color: #545359;
+  color: #d7ddea;
   font-size: 25px;
 }
 
@@ -51,12 +51,12 @@ border-radius: 10px;
     height: 40px;
     justify-content: center;
     z-index: 999;
-  background: #ecbc64;
+  background: #949ebb;
   position: relative;
   top: 390px;
   margin-right: 40px;
 border-radius: 10px;
-   color: #572540;
+   color: #d7ddea;
   font-size: 25px;
 }
 
@@ -67,12 +67,12 @@ border-radius: 10px;
     height: 40px;
     justify-content: center;
     z-index: 999;
-  background: #ecbc64;
+  background: #949ebb;
   position: relative;
   top: 390px;
   margin-right: 40px;
 border-radius: 10px;
-   color: #545359;
+   color: #d7ddea;
   font-size: 25px;
 }
 
@@ -83,11 +83,11 @@ border-radius: 10px;
     height: 40px;
     justify-content: center;
     z-index: 999;
-  background: #ecbc64;
+  background: #949ebb;
   position: relative;
   top: 390px;
   border-radius: 10px;
-   color: #545359;
+   color: #d7ddea;
   font-size: 25px;
 }
 
@@ -98,20 +98,20 @@ border-radius: 10px;
     height: 40px;
     justify-content: center;
     z-index: 999;
-  background: #ecbc64;
+  background: #949ebb;
   position: relative;
   top: 390px;
   margin-left: 25px;
   border-radius: 10px;
-   color: #545359;
+   color: #d7ddea;
   font-size: 25px;
   text-decoration: none;
 }
 
 #woods div[id*="Bea"] {
-    width: 480px;
-    height: 348px;
-    background: #fcf2b4;
+  width: 480px;
+  height: 348px;
+  background: #d7ddea;
   overflow-x: hidden;
   position: absolute; 
   z-index: 9;
@@ -165,7 +165,7 @@ input#possum4:checked ~ #Bea4{
   background-size: cover;
    border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  border: 5px solid #ecbc64;
+  border: 5px solid #949ebb;
 }
 
 
@@ -190,7 +190,7 @@ input#possum4:checked ~ #Bea4{
     content: '\ea84';
     font-family: 'honeybee';
     font-size: 75px;
-    color: #ecbc64;
+    color: #949ebb;
     position: absolute;
     transform: rotate(-15deg);
     opacity: 0.5;
@@ -232,7 +232,7 @@ input#possum4:checked ~ #Bea4{
   width: 75px;
   height: 75px;
   position: relative;
-  border: 5px solid #893654;
+  border: 5px solid #949ebb;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -243,7 +243,7 @@ input#possum4:checked ~ #Bea4{
   height: 75px;
   position: relative;
   left: 360px;
-  border: 5px solid #ecbc64;
+  border: 5px solid #949ebb;
   border-radius: 10px;
   background-size: cover;
 }
@@ -251,7 +251,7 @@ input#possum4:checked ~ #Bea4{
 .triangulito {
     width: 20px;
     height: 20px;
-    background: #ecbc64;
+    background: #949ebb;
     position: absolute;
     margin-top: -50px;
     margin-left: 84px;
@@ -261,7 +261,7 @@ input#possum4:checked ~ #Bea4{
 .triangulito1 {
     width: 20px;
     height: 20px;
-    background: #ecbc64;
+    background: #949ebb;
     position: absolute;
     margin-top: -50px;
     margin-left: 341px;
@@ -359,7 +359,7 @@ input#possum4:checked ~ #Bea4{
   margin-left: -40px;
   margin-top: -10px;
   font-size: 40px;
-   color: #ecbc64;
+   color: #8e6b73;
   transform: rotate(20deg);
   opacity: 0.6;
 }
@@ -368,7 +368,7 @@ input#possum4:checked ~ #Bea4{
   position: absolute;
   transform: rotate(10deg);
   font-size: 35px;
-  color: #ecbc64;
+  color: #2b2c3e;
   opacity: 0.6;
   margin-left: 170px;
 }
