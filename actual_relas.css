@@ -1,0 +1,147 @@
+.ash2 {
+  width:400px;
+  height:200px;
+  background:var(--bckg-1);
+  border:1px solid var(--border-1);
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.ash2 > div {
+  width:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  position:relative;
+  text-transform:uppercase;
+  box-sizing:border-box;
+}
+.ash2 .ashbot {
+  background:var(--bckg-2);
+  height:149px;
+  padding:0 30px;
+}
+.ash2 .ashbot:after{
+  content:"";
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:25px;
+  height:149px;
+  background:var(--accent-1);
+}
+.ash2 .ashtop {
+  height:51px;
+  border-bottom:1px solid var(--border-1);
+}
+.ash2 .ashtop a{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:50px;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:25px;
+  background:var(--accent-2);
+  color:var(--link);
+  text-shadow:1px 1px 0px rgba(0,0,0,0.2), -1px 1px 0px rgba(0,0,0,0.2), 1px -1px 0px rgba(0,0,0,0.2), -1px -1px 0px rgba(0,0,0,0.2);
+}
+.ash2 .ashtop a, .ash .ashtop a:before {
+  text-decoration:none;
+  line-height:50px;
+}
+.ash2 .ashbot div{
+  width:120px;
+  height:120px;
+  background-image:var(--img);
+  margin-left:15px;
+  border-radius:100%;
+  border:10px solid var(--border-2);
+  box-sizing:border-box;
+  position:relative;
+  background-size:cover;
+}
+.ash2 .ashbot div:before{
+  content:"";
+  border-radius:100%;
+  border:1px solid var(--accent-1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  top:-10px;
+  left:-10px;
+  box-sizing:border-box;
+}
+.ash2 .ashbot h{
+  width:195px;
+  text-align:center;
+  font-family:Ubuntu mono;
+  font-size:12px;
+  color:var(--accent-2);
+}
+.ash2 .ashtop h{
+  text-align:center;
+  width:310px;
+  margin-left:70px;
+  margin-right:20px;
+  font-family:Fredericka the Great;
+  font-size:25px;
+  color:var(--title);
+}
+.ncredit {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 10px;
+  text-decoration: none;
+  font: 8px verdana;
+  color: #aaa;
+}
+.ash2 + br + .ncredit {
+  margin-top: -15px;
+}
+.ncredit:before {
+  content: "©";
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v9/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--StxbcVcg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v9/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--Sjxbc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(https://fonts.gstatic.com/s/ubuntumono/v9/KFO-CneDtsqEr0keqCMhbC-BL9H7tY12eg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(https://fonts.gstatic.com/s/ubuntumono/v9/KFO-CneDtsqEr0keqCMhbC-BL9H1tY0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
