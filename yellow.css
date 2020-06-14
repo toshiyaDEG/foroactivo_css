@@ -56,7 +56,7 @@ border-radius: 10px;
   top: 390px;
   margin-right: 40px;
 border-radius: 10px;
-   color: #545359;
+   color: #572540;
   font-size: 25px;
 }
 
@@ -232,7 +232,7 @@ input#possum4:checked ~ #Bea4{
   width: 75px;
   height: 75px;
   position: relative;
-  border: 5px solid #ecbc64;
+  border: 5px solid #893654;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -354,7 +354,7 @@ input#possum4:checked ~ #Bea4{
     color: #0e0e0e;
 }
 
-.th-band-aid, .th-candy, .th-fish, .th-coconut, .th-cofee-3, .th-bone, .th-injection {
+.th-band-aid, .th-candy, .th-fish, .th-coconut, .th-coffee-3, .th-bone, .th-injection {
   position: absolute;
   margin-left: -40px;
   margin-top: -10px;
