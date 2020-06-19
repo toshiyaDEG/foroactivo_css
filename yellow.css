@@ -278,7 +278,7 @@ input#possum4:checked ~ #Bea4{
     left: 120px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #949ebb;
+    color: #2b2c3e;
     z-index: 999999!important;
 }
 
@@ -293,7 +293,7 @@ input#possum4:checked ~ #Bea4{
     left: 145px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #949ebb;
+    color: #2b2c3e;
 }
 
 .die-anywere:before {
